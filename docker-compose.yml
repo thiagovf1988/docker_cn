@@ -1,0 +1,13 @@
+version: '3.8'
+
+services: 
+  python:
+    build: .
+    command: python app.py
+    env_file: 
+      - '.env'
+    # image: 'python: 3.7.7-slim'
+    ports: 
+      - '5000:5000'
+    volumes: 
+      - '.:/app'

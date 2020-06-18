@@ -1,0 +1,15 @@
+# Updates:
+#   Nov 2019: Update Flask to a more recent version
+Flask==1.1.2
+psycopg2-binary==2.8.5
+plotly==4.8.1
+dash==1.12.0
+dash-core-components==1.10.0
+dash-html-components==1.0.3
+dash-renderer==1.4.1
+dash-table==4.7.0
+numpy==1.18.5
+pandas==1.0.4
+scipy==1.4.1
+matplotlib==3.2.1
+seaborn==0.10.1
